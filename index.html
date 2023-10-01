@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление задачами</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task</h1>
+        <input type="text" id="taskName" placeholder="Taski yaz">
+        <button onclick="createTask()">Yarat</button>
+        <div class="status-container">
+            <div class="status" id="open">
+                <h2>Aciq</h2>
+            </div>
+            <div class="status" id="inProgress">
+                <h2> Prosesde</h2>
+            </div>
+            <div class="status" id="completed">
+                <h2>Bitdi</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
